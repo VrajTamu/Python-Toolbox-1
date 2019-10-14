@@ -1,0 +1,16 @@
+# Python-Toolbox-1
+Here there are practice codes from Datacamp for the problems that are frequently occurring in Data Science field .
+
+
+Instructions -
+Unpack nums to the variables num1, num2, and num3.
+Construct a new tuple, even_nums composed of the same elements in nums, but with the 1st element replaced with the value, 2.
+
+Solution - 
+# Unpack nums into num1, num2, and num3
+num1=nums[0]
+num2=nums[1]
+num3=nums[2]
+# Construct even_nums
+even_nums = (2, num2, num3)
+print(even_nums)
